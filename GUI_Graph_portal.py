@@ -21,7 +21,7 @@ def help():
 
 
 def author():
-    messagebox.showinfo('Author', '    Mohammad Daanish Shaikh   \n\n    Roll no. 42  \n\n    F.Y. B.Tech')
+    messagebox.showinfo('Author', '    Written by Daanish Shaikh   \n\n    https://github.com/DaanishShk  ')
 
 
 def excel():
@@ -184,20 +184,20 @@ ftitle.place(relx=0.5, rely=0.03, relwidth=0.55, relheight=0.08, anchor='n')
 
 b = mini_window('A histogram is a graphical method of displaying quantitative data, similar '
                 'to a box plot or stem and leaf plot. A histogram displays the single quantitative '
-                'variable along the x axis and frequency of that variable on the y axis.', 1, 'Hist.png')
+                'variable along the x axis and frequency of that variable on the y axis.', 1, './images/Hist.png')
 b['command'] = histogram
 b = mini_window(
     'A bar chart or bar graph is a chart or graph that presents categorical data with rectangular bars with '
     'heights or lengths proportional to the values that they represent. The bars can be plotted vertically '
-    'or horizontally. A vertical bar chart is sometimes called a column chart.', 2, 'bar.png')
+    'or horizontally. A vertical bar chart is sometimes called a column chart.', 2, './images/bar.png')
 b['command'] = bar
 b = mini_window('Boxplots are a standardized way of displaying the distribution of data based on a five number summary '
-                '(“minimum”, first quartile (Q1), median, third quartile (Q3), and “maximum”).', 3, 'Box_plot.png')
+                '(“minimum”, first quartile (Q1), median, third quartile (Q3), and “maximum”).', 3, './images/Box_plot.png')
 b['command'] = box_plot
 b = mini_window('A scatter plot (aka scatter chart, scatter graph) uses dots to represent values for two different '
                 'numeric variables. The position of each dot on the horizontal and vertical axis indicates values for '
                 'an individual data point. Scatter plots are used to observe relationships between variables.', 4,
-                'scatter.png')
+                './images/scatter.png')
 b['command'] = scatter
 # Important to avoid overlapping with widgets outside of the canvas boundary
 
