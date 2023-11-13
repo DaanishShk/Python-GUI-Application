@@ -1,9 +1,67 @@
 # Python-GUI-Application
-This was my first attempt at creating a desktop GUI application using the tkinter library in python.
 
-The project is a standalone desktop application.
-The UI of the application is written in python using
-the library tkinter that comes pre-installed with the
+The project is a standalone desktop application to plot excel data on charts. This was my first attempt at creating a GUI application.
+
+[![Python][python]](#)
+[![Pandas][pandas]](#)
+[![Matplotlib][matplotlib]](#)
+
+
+## Description
+
+The UI of the application is written in python using the library tkinter. 
+
+The pandas library was used to read data from the excel sheet and store it in a data frame. This simplifies the process of building a graph using the matplotlib library. 
+
+Four types of graphs are available:
+1. Histogram 
+2. Boxplot 
+3. Bar
+4. Scatter
+
+## Built with
+
+The following technologies were used for development:
+1. [Pandas](https://pandas.pydata.org/) - library for data manipulation and analysis
+2. [Matplotlib](https://matplotlib.org/) - libary for plotting data
+
+## Getting Started
+For building and running the application you need:
+
+- [Python 3.11.4](https://www.python.org/downloads/release/python-3114/) or higher
+
+### Running the application locally
+
+Create a new virtual environment for the project. Install the dependencies given in the  `requirements.txt` file using the following command: 
+```
+pip install -r requirements.txt
+```
+
+Execute the python script using the following command:
+```shell
+python GUI_Graph_portal.py
+```
+
+
+## Author
+
+Daanish Shaikh - [@github](https://github.com/DaanishShk)\
+repo link - [Python-GUI-Application](https://github.com/DaanishShk/Python-GUI-Application)
+
+
+## License
+
+This project is licensed under the MIT License.
+
+
+
+[python]: https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54
+[pandas]: https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white
+[matplotlib]: https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black
+
+
+
+<!-- that comes pre-installed with the
 latest version of python. The code required to
 implement menus, dialog boxes, buttons and widgets
 was added to the program by importing the
@@ -34,13 +92,4 @@ clicking the button a corresponding function is called
 within the same python script which carries out the
 given task to display a relevant graph for analysis. A
 picture is present next to the text to give a clearer idea
-of the outcome.
-
-
-The pandas library was used to read data from the
-excel sheet and store it in a data frame. This
-simplifies the process of building a graph using the
-matplotlib library. Four types of graphs are available,
-namely histogram, boxplot, bar and scatter graphs.
-Their use depends on the dataset being that is being
-studied. 
+of the outcome. -->
